@@ -1,0 +1,34 @@
+/* px é uma unidade de medida de tamanho fixo./* 
+
+/* em: trabalha em relação ao tamanho da font do elemento pai */
+
+/* rem: root em = ele vai depender do elemento pai de tudo (html) documento principal da página   */
+
+p{
+
+font-size: 12px;
+}
+
+div{
+
+font-size: 10px;
+
+
+}
+
+h1{
+    font-size: 2em; /*20px*/
+}
+
+html{
+font-size: 62.5%; /*mais usual usar esteparamêtro para contagem */
+
+}
+
+div{
+color: white;
+background-color: black;
+width: 30vw;
+height: 100vh;
+
+}

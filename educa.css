@@ -44,3 +44,70 @@ transition: 0.8s;
 
 
 }
+
+#sessao{
+padding: 15rem;
+background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90,168,168)100%);
+
+}
+
+#sessao h2{
+font-size: 3em;
+color: rgba(0, 0, 0, 0.568);
+
+
+}
+
+#sessao p{
+
+
+    font-size: 2.3em;
+    margin: 20px 0;
+
+}
+
+#sessao button{
+padding: 25px;
+border-radius: 50px;
+background-color: aquamarine;
+width: 20em;
+}
+#sessao button a{
+
+    text-decoration: none;
+color: aquamarine;
+
+
+
+}
+
+#app{
+padding: 15rem;
+background-color:white ;
+display: flex;
+justify-content: space-around;
+
+}
+
+
+#app div button{
+
+    padding: 25px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    width: 20em; 
+}
+
+3app button a{
+    text-decoration: none;
+    color:aquamarine
+}
+
+#app div img {
+width:25rem ;
+height: 25rem; ;
+margin-left:70px ;
+margin-top:-70px ;
+
+
+}

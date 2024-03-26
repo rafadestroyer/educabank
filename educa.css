@@ -6,6 +6,12 @@ font-family: 'Courier New', Courier, monospace;
 
 }
 
+body{
+height: 100vh;
+width: 100vw;
+
+}
+
 .cabecalho {
 background-color: aqua;
 padding: 70px;
@@ -51,7 +57,7 @@ background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90,168,168)100%);
 
 }
 
-#sessao h2{
+#sessao h1{
 font-size: 3em;
 color: rgba(0, 0, 0, 0.568);
 
@@ -98,7 +104,7 @@ justify-content: space-around;
     width: 20em; 
 }
 
-3app button a{
+#app button a{
     text-decoration: none;
     color:aquamarine
 }
@@ -109,5 +115,42 @@ height: 25rem; ;
 margin-left:70px ;
 margin-top:-70px ;
 
+}
 
+#container{
+padding: 15rem;
+background-color: aquamarine;
+
+
+
+}
+#container h2{
+font-size: 40px;
+text-align: center;
+color: blue;
+margin-top: -20rem;
+margin-bottom: 2rem;
+}
+
+#container p{
+font-size: 1.4rem;
+color: rgb(34,34,74);
+margin-bottom: 40px;
+text-align: justify;
+}
+
+.line{
+width: 70%;
+margin: 45px auto;
+
+}
+
+#container img{
+width: 45rem;
+margin-left: 20px;
+
+}
+
+#container-cofre{
+    background: linear-gradient(180deg,#0c16a364 8.33%,rgba(5,39,101,0.745)100%),url(img/img cofre fundo.jpg);
 }

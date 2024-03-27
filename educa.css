@@ -1,6 +1,7 @@
 *{
 margin: 0;
 padding: 0;
+list-style: none;
 font-family: 'Courier New', Courier, monospace;
 
 
@@ -12,7 +13,7 @@ width: 100vw;
 
 }
 
-.cabecalho {
+.header {
 background-color: aqua;
 padding: 70px;
 
@@ -35,7 +36,7 @@ margin-left: 20px;
 
 .menu-header li a{
 text-decoration: none;
-color: white;
+color: blue;
 font-size: 12px;
 
 
@@ -77,12 +78,16 @@ padding: 25px;
 border-radius: 50px;
 background-color: aquamarine;
 width: 20em;
+cursor: pointer;
+color: green;
 }
+
 #sessao button a{
 
     text-decoration: none;
-color: aquamarine;
-
+color: blue;
+transition:0.8s;
+border-color: antiquewhite;
 
 
 }
@@ -106,7 +111,7 @@ justify-content: space-around;
 
 #app button a{
     text-decoration: none;
-    color:aquamarine
+    color:blue;
 }
 
 #app div img {
@@ -152,5 +157,68 @@ margin-left: 20px;
 }
 
 #container-cofre{
-    background: linear-gradient(180deg,#0c16a364 8.33%,rgba(5,39,101,0.745)100%),url(img/img cofre fundo.jpg);
+    background: linear-gradient(180deg,#0c16a364 8.33%,rgba(5,39,101,0.745)100%),url(https://www.qsbank.com.br/wp-content/uploads/2022/02/texture4-1.jpg);
+
+background-position: center;
+background-attachment:fixed ;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 15rem;
+
+}
+
+#container-cofre img {
+
+    width: 20rem;
+    height: auto;
+    margin-top: 10rem;
+}
+
+#container-cofre h2{
+
+color: white;
+font-size: 30px;
+text-align: center;   
+
+}
+
+#container-cofre p{
+color: white;
+font-size: 18px;
+text-align: center;
+margin-left: 1rem;
+font-weight:800 ;
+
+
+}
+
+footer{
+padding: 3rem;
+background-color: grey;
+text-align: center;
+
+}
+
+footerdiv{
+display: flex;
+margin-top: 20px;
+justify-content: space-between;
+
+}
+
+footer div a{
+text-decoration: none;
+color: white;
+}
+
+footer div p{
+color: #000;
+
+}
+
+footer div a:hover{
+color: crimson;
+transition: 0.5s;
+
 }

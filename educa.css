@@ -220,5 +220,58 @@ color: #000;
 footer div a:hover{
 color: crimson;
 transition: 0.5s;
+@media screen and (1920) {
+    
+}
+
+
+
+}
+
+@media screen and(max-width:1366px) {
+    
+}
+
+@media screen and(max-width:991
+) { 
+ #sessao a buttom {  
+width:14rem
+padding: 0.9rem;
+
+}
+
+#sessao p {
+font-size: 1.5rem;
+padding: 15px;0;
+}
+
+#app div a button{
+    width: 17rem;
+    padding: 0.9rem;
+}
+
+
+
+#app{
+padding: 30vh;
+
+#app div p
+
+}
+#app div img{
+width: 18rem;
+height: auto;
+
+
+
+}
+
+#container{
+padding: 35vh;
+
+}
+
+#container h2{
+
 
 }
